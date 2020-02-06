@@ -4,7 +4,7 @@
   {% assign icon_color = "#24292e" %}
 {% endif %}
 
-{% assign content = page.content %}
+
 
 {% assign posts_total = site.posts | size %}
 
@@ -22,7 +22,7 @@
 <html class="min-height-full">
   <head>
     <meta charset="utf-8">
-    <title>{{ page_title }}</title>
+    <title>{{ page.title }} || AwesomeTech10</title>
     <meta name="description" content="{{ meta_description }}" />
     <meta property="og:title" content="{{ user.name }}" />
     <meta property="og:image" content="{{ user.avatar_url }}" />

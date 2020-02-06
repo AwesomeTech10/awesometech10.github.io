@@ -34,6 +34,24 @@
         {{ user.location }}
       </div>
     {% endif %}
+    <div>
+      <a href="/" class="d-inline-block f3 rounded-2 text-white py-1 px-2">
+        Home
+      </a><br>
+      <a href="/projects" class="d-inline-block f3 rounded-2 text-white py-1 px-2">
+        Projects
+      </a><br>
+      <a href="/games" class="d-inline-block f3 rounded-2 text-white py-1 px-2">
+        Games
+      </a><br>
+      <a href="/tutorials" class="d-inline-block f3 rounded-2 text-white py-1 px-2">
+        Tutorials
+      </a><br>
+      <a href="/about" class="d-inline-block f3 rounded-2 text-white py-1 px-2">
+        About
+      </a>
+    </div>
+    <br>
     {% if site.social_media %}
       <div class="d-flex flex-wrap flex-items-start {% if site.layout == 'stacked' %}flex-justify-center mt-1 mt-md-3{% endif %}">
         {% for account in site.social_media %}

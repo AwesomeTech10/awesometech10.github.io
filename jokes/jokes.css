@@ -1,0 +1,40 @@
+body {
+    background-color: #eee;
+    color: #1b1b1b;
+    margin: 20px;
+    text-align: center;
+    margin-top: 30vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+p {
+    font-size: 12px;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+button {
+    border: none;
+    padding: 20px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+#disclaimer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+#joke.allJokesList {
+    font-size: 12px;
+}

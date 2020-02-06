@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Key Detector</title>
+        <link href="keyboard.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Key Detector</h1>
+
+        <p>Press any key on the keyboard in the input field to get the Unicode character code and the Unicode key code of the pressed key.</p>
+
+        <input type="text" size="50" onkeypress="uniCharCode(event)" onkeydown="uniKeyCode(event)"> 
+
+        <p>Unicode Character Code - <span id="charcode"></span></p>
+        <p>Unicode Key Code - <span id="keycode"></span></p>
+
+        <h3>Programmatic Usage</h3>
+
+            <p>• Unicode Character Code: <code>document.onkeypress</code></p>
+            <p>• Unicode Key Code: <code>document.onkeydown</code></p>
+
+<script>
+function uniCharCode(event) {
+  var char = event.which || event.keyCode;
+  document.getElementById("charcode").innerHTML = char;
+}
+
+function uniKeyCode(event) {
+  var key = event.keyCode;
+  document.getElementById("keycode").innerHTML = key;
+}
+</script>
+
+</body>
+</html>

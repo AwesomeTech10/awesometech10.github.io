@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jokemaster</title>
+        <link rel="stylesheet" href="jokes.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    </head>
+    <body>
+        <div id="warning">
+            <h1>WARNING</h1>
+            <p>Some jokes may be NSFW.</p>
+            <button onclick="jokesGoodToGo()">OK</button>
+        </div>
+        <div id="jokeService">        
+            <h1 id="joke">Fetching Jokes...</h1>
+            <button onclick="ohNoANewJoke()">Get a New Joke</button>
+            <button onclick="waitWutAllTheJokes()" id="allJokeButton">View All Jokes</button>
+            <button onclick="noMoreJokes()" id="closeAllJokeButton">Close All Jokes</button>
+            <p>A Project by <a href="https://awesometech10.js.org">AwesomeTech10</a></p>
+        </div>
+        <span class="disclaimer">DISCLAIMER: You are not guarenteed to laugh. These jokes may not be funny.</span>
+        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+        <script src="jokes.js"></script>
+    </body>
+</html>

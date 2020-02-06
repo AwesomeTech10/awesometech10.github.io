@@ -1,6 +1,7 @@
 ---
 ---
 @import url('https://unpkg.com/primer/build/build.css');
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
 @import 'highlight-syntax';
 
 
@@ -51,4 +52,30 @@
 
 .min-height-full {
   min-height: 100vh;
+}
+
+ul a {
+   opacity: 60%;
+   color: #fff;
+}
+
+#custom a {
+  opacity: 60%;
+   color: #fff;
+}
+
+.date {
+  opacity: 36%;
+}
+
+/**
+Override highlighter background
+*/
+
+.highlight {
+  background: none;
+}
+
+.post img {
+  max-width: 150vh;
 }
