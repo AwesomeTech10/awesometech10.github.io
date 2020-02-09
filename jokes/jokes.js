@@ -223,7 +223,8 @@ var json = `
     "235": "Two brothers claimed it was possible to fly. They were Wright.",
     "236": "What happened to the overconfident lion tamer? He was consumed by his own pride.",
     "237": "Why did the traffic light turn red? You would to if you had to change in the middle of the street.",
-    "238": "What was a witch's favorite subject in school? Spelling."
+    "238": "What was a witch's favorite subject in school? Spelling.",
+    "239": "Me: 'I'm terrified of random letters.' Therapist: 'You Are?' Me: [screams]'"
 }
 `
 function getCookie(cname) {
