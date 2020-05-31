@@ -1,5 +1,5 @@
-baseurl: ""
-markdown:         redcarpet
+baseurl: "awesometech10.js.org"
+markdown: redcarpet
 disqus: awesometech10
 
 layout: sidebar
