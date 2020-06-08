@@ -6,7 +6,7 @@ function mockGen (c) {
 }
 
 function mock (text) {
-    output.value = text.split("").map(mockGen).join("");   
+    text = output.value = text.split("").map(mockGen).join("");   
 }
 
 input.addEventListener('keyup', function (e) { mock(e.target.value); });
